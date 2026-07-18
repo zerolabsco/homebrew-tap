@@ -13,7 +13,7 @@ cask "octosentry" do
   desc "Menu bar app aggregating GitHub security alerts into one feed"
   homepage "https://github.com/zerolabsco/octosentry"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "octosentry.app"
 
